@@ -1,6 +1,6 @@
 # Sample Shaders
 
-![img](./sample.pmg)
+![img](./samples.pmg)
 
 Writting Shaders in Unity. Reffered http://tips.hecomi.com/entry/2014/03/16/233943 .
 
