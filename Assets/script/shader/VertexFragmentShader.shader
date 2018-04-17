@@ -11,7 +11,7 @@ Shader "Custom/VertexFragmentShader" {
 			// processing all vertex
 			// Syntax: variable:Semantics, 
 			//         Semantics is valiables thougn each stages in graphics pipeline
-			float4 vert(float4 v:POSITION) : SV_POSITION
+			float4 vert(float4 v:POSITION) : SV_POSITION {
 				// coordinate transformation to MVP
 				return UnityObjectToClipPos(v);
 			}
